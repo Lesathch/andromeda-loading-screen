@@ -77,13 +77,9 @@ document.querySelector('#app').innerHTML = `
           <img src="src/assets/3.png" data-i18n-alt="s3alt" alt="Timeline de animación" class="project-img">
           
           <div class="video-container">
-          <iframe 
-          src="https://www.youtube.com/embed/MTym6P6UE1U?playlist=MTym6P6UE1U&loop=1&autoplay=1&mute=1&vq=hd1080&controls=0&modestbranding=1&rel=0&iv_load_policy=3" 
-          title="Andromeda Logo Animation - After Effects" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
+          <video class="video-bg" autoplay muted loop playsinline>
+            <source src="src/assets/andromeda.mp4" type="video/mp4">
+        </video>
           </div>
         </div>
 

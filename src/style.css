@@ -43,8 +43,8 @@ body {
 }
 
 .animation-c-style {
-  width: clamp(180px, 30vw, 320px);
-  height: clamp(180px, 30vw, 320px);
+  width: clamp(500px, 30vw, 320px);
+  height: clamp(500px, 30vw, 320px);
   border-radius: 50%;
 }
 
@@ -243,4 +243,12 @@ body {
 #lang-toggle .flag {
   font-size: 14px;
   line-height: 1;
+}
+
+.video-bg {
+  width: 100%;
+  max-width: fit-content; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
